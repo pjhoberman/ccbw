@@ -1,0 +1,32 @@
+body {
+	padding-bottom: 50px;
+}
+
+.feature {
+	width: 100%;
+	text-align: center;
+}
+
+.feature img {
+	width: 100%;
+	max-width: 712px;
+}
+
+.sub-feature {
+	text-align: center;
+	float: left;
+	width: 50%;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.sub-feature img {
+	width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+	.sub-feature {
+		float: none;
+		width: 100%;
+	}
+	}
